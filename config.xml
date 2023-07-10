@@ -1,0 +1,19 @@
+<configwizard>
+    <templates>
+        <template filename="windows-ssh.cfg"/>
+    </templates>
+     <plugins>
+        <plugin filename="check_volume.ps1.py"/>
+        <plugin filename="check_cpu.ps1.py"/>
+        <plugin filename="check_disks.ps1.py"/>
+        <plugin filename="check_network_adapter.ps1.py"/>
+        <plugin filename="check_services.ps1.py"/>
+        <plugin filename="check_memory.ps1.py"/>
+        <plugin filename="check_process.ps1.py"/>
+        <plugin filename="check_cpu_utilization.ps1.py"/>
+
+    </plugins>
+    <logos>
+        <logo filename="windows_ssh.png"/>
+    </logos>
+</configwizard>
